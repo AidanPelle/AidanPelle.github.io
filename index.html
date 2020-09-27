@@ -2,12 +2,26 @@
 <html>
     <header>
         <style>
-            body {
-                background-image: url("images/Mountain.jpg");
+
+            body, html {
+                height: 100%;
+            }
+
+            .bg { 
+                /* The image used */
+                background-image: url("Mountain.jpg");
+
+                /* Full height */
+                height: 100%; 
+
+                /* Center and scale the image nicely */
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
             }
         </style>
     </header>
-    <body>
+    <body class=".bg">
         <h1>
             Aidan's Portfolio
         </h1>
