@@ -1,32 +1,228 @@
 <!DOCTYPE html>
-<html>
-    <header>
+<html class="bg">
+    <body>
+            <header class="navbar">
+                <div>
+                    <a href= "#" class="header-text"
+                    style="margin-right: 8vh;">
+                       Home
+                    </a>
+                    <a href= "#" class="header-text">
+                        About Me
+                     </a>
+                </div>
+                <div">
+                    <a href= "#" class="header-text">
+                        Portfolio
+                    </a>
+                    <a href= "#" class="header-text"
+                    style="margin-left: 8vh;">
+                        Resume
+                    </a>
+                </div>
+            </header>
+            <div id="wrapper">
+                <h1 class="h1-text">
+                    Aidan Pelle
+                    <br>
+                    Full-Stack Developer
+                </h1>
+                <div id="summary">
+                    <p>
+                        <b>
+                            I am a Software Development student at SAIT.
+                            Programming is my passion, and 
+                            I've built everything from a website to a maze-solving car.
+                        </b>
+                    </p>
+                </div> 
+                <ul>
+                    <li class="skills-box">
+                        <div class="skills">
+                            <img src="images/Java.png" alt="Java" width="30vh" height="30vh">
+                            Java
+                        </div>
+                    </li>
+                    <li class="skills-box">
+                        <div class="skills">
+                            <img src="images/JavaScript.png" alt="Java" width="36vh" height="36vh">
+                            JS
+                        </div>
+                    </li>
+                    <li class="skills-box">
+                        <div class="skills">
+                            <img src="images/Python.png" alt="Java" width="30vh" height="30vh">
+                            Python
+                        </div>
+                    </li>
+                    <li class="skills-box">
+                        <div class="skills">
+                            <img src="images/HTML.png" alt="Java" width="48vh" height="48vh">
+                        </div>
+                    </li>
+                    <li class="skills-box">
+                        <div class="skills">
+                            <img src="images/Excel.png" alt="Java" width="30vh" height="30vh">
+                            Excel
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <footer class="navbar">
+                <div>
+                    <a href= "#" class="footer-text"
+                    style="margin-right: 8vh;">
+                       aidanpelle123@gmail.com
+                    </a>
+                </div>
+                <div>
+                    <a href= "#" class="footer-image">
+                        <img src="images/LinkedIn.png" alt="Java" width="40vh" height="40vh"
+                        style="border-radius: 13px;">
+                    </a>
+                    <a href= "#" class="footer-image">
+                        <img src="images/Indeed.png" alt="Java" width="40vh" height="40vh"
+                        style="border-radius: 13px;">
+                    </a>
+                    <a href= "#" class="footer-image">
+                        <img src="images/StackOverflow.png" alt="Java" width="40vh" height="40vh"
+                        style="border-radius: 13px;">
+                    </a>
+                </div>
+            </footer>
+    </body>
+    <head>
         <style>
 
-            body, html {
+            a:hover {
+                color: rgb(111, 160, 233);
+            }
+
+            #portfolio-link {
+                float: right;
+            }
+
+
+            #summary {
+                height: 10vh;
+                width: 75vh;
+                background: rgb(238, 221, 241);
+                position: fixed;
+                bottom: 32.5vh;
+                border-radius: 20px;
+                text-align: center;
+                font-size: 17px;
+            }
+
+            #wrapper {
+                height: 60vh;
+                display: flex;
+                justify-content: space-around;
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .skills {
+                display: inline-block;
+                justify-content: center;
+                align-items: flex-end;
+                width: 100%;
                 height: 100%;
+                flex-direction: column;
+            }
+
+            .skills-box {
+                border-radius: 10px;
+                background: rgb(238, 221, 241);
+                height: 7.5vh;
+                width: 7.5vh;
+                margin: 0 15px 0 15px;
+                text-align: center;
+            }
+
+            .navbar {
+                position: fixed;
+                padding: 2vh 4vh 2vh 4vh;
+                width: 100%;
+                background: black;
+                align-items: center;
+                box-sizing: border-box;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+            }
+
+            .header-text {
+                color:rgb(225, 193, 231);
+                text-decoration: none;
+                font-size: 3vh;
+                text-align: center;
+            }
+
+            .footer-image {
+                text-decoration: none;
+                margin-left: 8vh;
+            }
+
+            .footer-text {
+                color:rgb(225, 193, 231);
+                text-decoration: none;
+                font-size: 2.5vh;
+                text-align: center;
+            }
+
+            .h1-text {
+                color: rgb(0, 0, 0);
+                text-align: center;
             }
 
             .bg { 
-                background-image: url("images/Mountain.jpg");
-
-                height: 100%; 
-
+                height: 100%;
+                width: 100%;
+                background-image: url("images/Background.jpg");
                 background-position: center;
                 background-repeat: no-repeat;
                 background-size: cover;
             }
+
+            img {
+                margin-top: 0.5vh;
+                vertical-align: middle;
+            }
+
+            ul {
+                list-style: none;
+                position: fixed;
+                bottom: 18vh;
+                display: flex;
+                flex-direction: row;
+                justify-self: center;
+                padding: 0;
+            }
+
+            footer {
+                bottom: 0;
+            }
+
+            header {
+                top: 0; 
+            }
+
+            html, body {
+                height: 100%;
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+
+           
+
+            h1 {
+                position: fixed;
+                display: flex;
+                align-self: center;
+                top: 25vh;
+            }
         </style>
-    </header>
-    <body class="bg">
-        <h1>
-            Aidan's Portfolio
-        </h1>
-        <div>
-            <p>
-                Stuff
-            </p>
-        </div>
-        
-    </body>
+    </head>
 </html>
