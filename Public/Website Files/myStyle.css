@@ -12,12 +12,13 @@ a:hover {
     width: 75vh;
     background: rgb(238, 221, 241);
     position: fixed;
-    bottom: 32.5vh;
+    bottom: 32vh;
     border-radius: 20px;
     text-align: center;
     font-size: 17px;
     font-weight: bold;
-    padding: 0 4vh 0 4vh;
+    padding: 0.5vh 4vh 0.5vh 4vh;
+    display: flex;
 }
 
 #wrapper {

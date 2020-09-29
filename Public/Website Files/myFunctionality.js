@@ -1,4 +1,29 @@
+function loadAboutMe() {
+    clearSummaryImage();
+
+    const aboutMeText = "This is some basic information about me. Included, but not limited to: "
+    + "where I was born, when I moved to California, my interests, maybe a job summary, "
+    + "and my schooling.";
+    document.getElementById("summary-text").innerHTML = aboutMeText;
+
+    let divSummary = document.getElementById("summary");
+    divSummary.style.height = "21.5vh";
+
+    const imageContainer = document.createElement("div");
+    divSummary.prepend(imageContainer);
+    const image = createImage("../images/Profile Picture.jpg", 150, 150);
+    image.style.marginRight = "5vh";
+    imageContainer.append(image);
+
+    let root = document.getElementById("skills-list");
+    while( root.firstChild ){
+        root.removeChild( root.firstChild );
+    }
+}
+
 function loadPortfolio() {
+    clearSummaryImage();
+
     let portfolioText = "This is information about my portfolio, and the various" 
     + " projects that I have worked on throughout my career";
     document.getElementById("summary-text").innerHTML = portfolioText;
@@ -13,6 +38,8 @@ function loadPortfolio() {
 }
 
 function loadResumeSummary() {
+    clearSummaryImage();
+
     let resumeSummary = "Here is a basic summary of my resume and stuff";
     document.getElementById("summary-text").innerHTML = resumeSummary;
     document.getElementById("summary").style.height = "25vh";
@@ -87,7 +114,18 @@ function createImage(imageSource, width, height) {
     return image;
 }
 
+function clearSummaryImage() {
+    let root = document.getElementById("summary");
+    if (root.firstChild.hasChildNodes()) {
+        root.removeChild(root.firstChild);
+    }
+}
+
 function loadHomePage() {
     location.reload();
 return false;
+}
+
+function isImage(i) {
+    return i instanceof HTMLImageElement;
 }
