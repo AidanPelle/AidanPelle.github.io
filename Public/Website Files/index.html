@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="bg" lang="en-US">
+<html class="bg" lang="en-US" id="homepage">
     <head>
         <meta charset = "UTF-8">
         <title>Portfolio.html</title>
@@ -11,19 +11,19 @@
     <body>
         <header class="navbar">
             <div>
-                <a href= "#" class="header-text"
+                <a href= "index.html" class="header-text"
                 style="margin-right: 8vh;">
                     Home
                 </a>
-                <a href= "#" class="header-text">
+                <a href="#" onclick="loadAboutMe()" class="header-text">
                     About Me
                     </a>
             </div>
             <div>
-                <a href= "portfolio.html" class="header-text">
+                <a href="#" onclick="loadPortfolio()" class="header-text">
                     Portfolio
                 </a>
-                <a href= "#" class="header-text"
+                <a href="#" onclick="loadResumeSummary()" class="header-text"
                 style="margin-left: 8vh;">
                     Resume
                 </a>
@@ -36,15 +36,13 @@
                     Full-Stack Software Developer
             </h1>
             <div id="summary">
-                <p>
-                    <b>
-                        I am a Software Development student at SAIT.
-                        Programming is my passion, and 
-                        I've built everything from a website to a maze-solving car.
-                    </b>
+                <p id="summary-text">
+                    I am a Software Development student at SAIT.
+                    Programming is my passion, and 
+                    I've built everything from a website to a maze-solving car.
                 </p>
             </div> 
-            <ul>
+            <ul id="skills-list">
                 <li class="skills-box">
                     <div class="skills">
                         <img src="../images/Java.png" alt="Java" width="30vh" height="30vh">
@@ -53,7 +51,7 @@
                 </li>
                 <li class="skills-box">
                     <div class="skills">
-                        <img src="../images/JavaScript.png" alt="Java" width="36vh" height="36vh">
+                        <img src="../images/JavaScript.png" alt="Java" width="34vh" height="34vh">
                         JS
                     </div>
                 </li>
@@ -65,7 +63,7 @@
                 </li>
                 <li class="skills-box">
                     <div class="skills">
-                        <img src="../images/HTML.png" alt="Java" width="48vh" height="48vh">
+                        <img src="../images/HTML.png" alt="Java" width="46vh" height="46vh">
                     </div>
                 </li>
                 <li class="skills-box">
