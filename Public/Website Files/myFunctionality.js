@@ -50,12 +50,12 @@ function loadResumeSummary() {
     }
 
     /*Creating Resume icon and adding to ul*/
-    root.appendChild(createDownload("../../Portfolio/Resume.pdf", "../images/ResumeDownload.png",
-    "../images/ResumeHover.png", 30, 30, "download-box", "Resume"));
+    root.appendChild(createLink("../../Portfolio/Resume.pdf", "../images/ResumeDownload.png",
+    "../images/ResumeHover.png", 30, 30, "download-box", true, "Resume"));
 
     /*Creating CV icon and adding to ul*/
-    root.appendChild(createDownload("../../Portfolio/Resume.pdf", "../images/CVDownload.png", 
-    "../images/CVHover.png", 40, 46, "download-box"));
+    root.appendChild(createLink("../../Portfolio/Resume.pdf", "../images/CVDownload.png", 
+    "../images/CVHover.png", 40, 46, "download-box", true));
 }
 
 function createIcon(src, width, height, boxType, text) {
@@ -76,7 +76,7 @@ function createIcon(src, width, height, boxType, text) {
     return iconDownload;
 }
 
-function createDownload(downloadSrc, imgSrc, hoverSrc, width, height, boxType, text) {
+function createLink(link, imgSrc, hoverSrc, width, height, boxType, isDownload, text) {
     const iconDownload = document.createElement("li");
     iconDownload.classList.add(boxType);
 
@@ -84,8 +84,10 @@ function createDownload(downloadSrc, imgSrc, hoverSrc, width, height, boxType, t
     const iconContainer = document.createElement("a");
     iconContainer.classList.add("skills");
     iconContainer.classList.add("remove-text-decoration");
-    iconContainer.href = downloadSrc;
-    iconContainer.setAttribute('download',"download");
+    iconContainer.href = link;
+    if (isDownload==true){
+        iconContainer.setAttribute('download',"download");
+    }
     iconDownload.appendChild(iconContainer);
 
     /*Creating image element and adding to div container*/
@@ -93,18 +95,18 @@ function createDownload(downloadSrc, imgSrc, hoverSrc, width, height, boxType, t
     if (text != undefined) {
         iconContainer.textContent = text;
     }
+
+    const hoverImage = createImage(hoverSrc, width, height);
+    if (text != undefined) {
+        iconContainer.textContent = text;
+    }
     
-    iconContainer.onmouseover = function() {hoverImage(iconImage, hoverSrc)};
-    iconContainer.onmouseout = function() {iconImage.src = imgSrc};
+    iconContainer.onmouseover = function() {iconContainer.removeChild(iconContainer.firstChild); iconContainer.prepend(hoverImage)};
+    iconContainer.onmouseout = function() {iconContainer.removeChild(iconContainer.firstChild); iconContainer.prepend(iconImage)};
     iconContainer.prepend(iconImage);
 
     return iconDownload;
 }
-
-function hoverImage(iconImage, hoverSrc) {
-    iconImage.src = hoverSrc;
-}
-
 
 function createImage(imageSource, width, height) {
     const image = document.createElement("img");
