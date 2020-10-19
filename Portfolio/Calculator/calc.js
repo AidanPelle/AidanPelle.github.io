@@ -199,10 +199,13 @@ function round(number) {
 }
 
 function hasDecimal(stringNumber) {
-    for (let i = 0; i < stringNumber.length; i++) {
-        if (stringNumber.charAt(i) == '.')
-            return true;
+    if (stringNumber != null) {
+        for (let i = 0; i < stringNumber.length; i++) {
+            if (stringNumber.charAt(i) == '.')
+                return true;
+        }
     }
+    
     return false;
 }
 
