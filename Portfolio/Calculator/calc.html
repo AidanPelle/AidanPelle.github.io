@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html class="bg" lang="en-US" id="homepage">
+    <head>
+        <meta charset = "UTF-8">
+        <title>Calculator</title>
+        <link rel = "stylesheet"
+          type = "text/css"
+          href = "calc.css" />
+    </head>
+    <body>
+        <div id="calculator">
+            <div id="header">
+                <div id="header-content">0</div>
+            </div>
+
+            <div id="numberContainer">
+                <div onclick="clearSingle()" class="button function">C</div>
+                <div onclick="clearAll()" class="button function">AC</div>
+                <div onclick="math(this)" class="button function" id="modulus">%</div>
+                <div onclick="math(this)" class="button function" id="plus">+</div>
+                <div onclick="storeNumber('1', this)" class="button number">1</div>
+                <div onclick="storeNumber('2', this)" class="button number">2</div>
+                <div onclick="storeNumber('3', this)" class="button number">3</div>
+                <div onclick="math(this)" class="button function" id="minus">-</div>
+                <div onclick="storeNumber('4', this)" class="button number">4</div>
+                <div onclick="storeNumber('5', this)" class="button number">5</div>
+                <div onclick="storeNumber('6', this)" class="button number">6</div>
+                <div onclick="math(this)" class="button function" id="multiply">*</div>
+                <div onclick="storeNumber('7', this)" class="button number">7</div>
+                <div onclick="storeNumber('8', this)" class="button number">8</div>
+                <div onclick="storeNumber('9', this)" class="button number">9</div>
+                <div onclick="math(this)" class="button function" id="divide">/</div>
+                <div onclick="storeNumber('0', this)" class="button number">0</div>
+                <div onclick="storeNumber('.', this)" class="button number">.</div>
+                <div onclick="flipSign()" class="button number">+/-</div>
+                <div onclick="equals()" class="button function">=</div>
+                
+            </div>
+
+        </div>
+        <a href="../../Public/Website Files/index.html">Home</a>
+        <script type="text/javascript" src="calc.js"></script>
+    </body>
+</html>

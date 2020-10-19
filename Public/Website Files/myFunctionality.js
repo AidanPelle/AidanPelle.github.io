@@ -1,9 +1,10 @@
 function loadAboutMe() {
     clearSummaryImage();
 
-    const aboutMeText = "This is some basic information about me. Included, but not limited to: "
-    + "where I was born, when I moved to California, my interests, maybe a job summary, "
-    + "and my schooling.";
+    const aboutMeText = "I love programming both as a career and a hobby."
+    + " I've worked at a coffee shop, web devlopment, and programming tutoring." 
+    + " I graduated from high school with a 4.0, and am currently enrolled at SAIT with a 4.0 GPA."
+    + " I love to read, play DnD, and swim.";
     document.getElementById("summary-text").innerHTML = aboutMeText;
 
     let divSummary = document.getElementById("summary");
@@ -13,6 +14,7 @@ function loadAboutMe() {
     divSummary.prepend(imageContainer);
     const image = createImage("../images/Profile Picture.jpg", 150, 150);
     image.style.marginRight = "5vh";
+    //image.style.borderRadius = "20px";
     imageContainer.append(image);
 
     let root = document.getElementById("skills-list");
@@ -24,8 +26,10 @@ function loadAboutMe() {
 function loadPortfolio() {
     clearSummaryImage();
 
-    let portfolioText = "This is information about my portfolio, and the various" 
-    + " projects that I have worked on throughout my career";
+    let portfolioText = "As a first-year student at SAIT, I'm still learning all that I can about programming."
+    + " However, I love to learn and I plan on picking up as many skills as I can."
+    + " Here's a basic calculator app, along with a playable RPG game (both made in JavaScript)."
+    + " I've also built this website.";
     document.getElementById("summary-text").innerHTML = portfolioText;
     document.getElementById("summary").style.height = "15vh";
     
@@ -34,15 +38,22 @@ function loadPortfolio() {
         root.removeChild( root.firstChild );
     }
 
-    root.appendChild(createIcon("../images/Videogame.png", 40, 30, "download-box", "Game"));
+    root.appendChild(createLink("#", "../images/Videogame.png", 
+    "../images/VideogameHover.png", 40, 30, "download-box", false, "Game"));
+
+    root.appendChild(createLink("../../Portfolio/Calculator/calc.html", "../images/Calculator.png",
+    "../images/CalculatorHover.png", 36, 46, "download-box", false));
 }
 
 function loadResumeSummary() {
     clearSummaryImage();
 
-    let resumeSummary = "Here is a basic summary of my resume and stuff";
+    let resumeSummary = "Software Development Student at SAIT with leadership experience, web development knowledge"
+    + " and general programming skills. I've completed a website (working on two others) and a videogame written"
+    + " in both Java and JavaScript. I have a passion for programming and I'm looking to further my skills"
+    + " in an internship position.";
     document.getElementById("summary-text").innerHTML = resumeSummary;
-    document.getElementById("summary").style.height = "25vh";
+    document.getElementById("summary").style.height = "18vh";
     
     let root = document.getElementById("skills-list");
     while( root.firstChild ){
