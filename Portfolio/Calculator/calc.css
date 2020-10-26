@@ -4,7 +4,6 @@
     left: 50%;
     transform: translate(-50%, -50%);
     display: block;
-    border: 3px solid black;
     padding: 0;
 }
 
@@ -17,11 +16,12 @@
 #header {
     position: relative;
     background-color: rgb(60, 60, 60);
-    height: 8vh;
-    border: 3px solid black;
+    border: 5px solid black;
     color: white;
     height: 9vh;
     font-size: 5vh;
+    margin-top: -5px;
+    margin-left: -5px;
 }
 
 #header-content {
@@ -31,11 +31,13 @@
 }
 
 .button {
-    border: 3px solid black;
+    border: 5px solid black;
     background-color: red;
     text-align: center;
     font-size: 5vh;
     padding: 1.5vh;
+    margin-top: -5px;
+    margin-left: -5px;
 }
 
 .number {
