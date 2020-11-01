@@ -8,13 +8,12 @@ function loadAboutMe() {
     document.getElementById("summary-text").innerHTML = aboutMeText;
 
     let divSummary = document.getElementById("summary");
-    divSummary.style.height = "21.5vh";
 
     const imageContainer = document.createElement("div");
     divSummary.prepend(imageContainer);
     const image = createImage("../images/Profile Picture.jpg", 150, 150);
     image.style.marginRight = "5vh";
-    //image.style.borderRadius = "20px";
+    image.style.borderRadius = "20px";
     imageContainer.append(image);
 
     let root = document.getElementById("skills-list");
@@ -31,7 +30,6 @@ function loadPortfolio() {
     + " Here's a basic calculator app, along with a playable RPG game (both made in JavaScript)."
     + " I've also built this website.";
     document.getElementById("summary-text").innerHTML = portfolioText;
-    document.getElementById("summary").style.height = "15vh";
     
     let root = document.getElementById("skills-list");
     while( root.firstChild ){
@@ -53,7 +51,6 @@ function loadResumeSummary() {
     + " in both Java and JavaScript. I have a passion for programming and I'm looking to further my skills"
     + " in an internship position.";
     document.getElementById("summary-text").innerHTML = resumeSummary;
-    document.getElementById("summary").style.height = "18vh";
     
     let root = document.getElementById("skills-list");
     while( root.firstChild ){

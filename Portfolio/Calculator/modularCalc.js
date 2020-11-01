@@ -9,19 +9,18 @@ const calculator = (() => {
     }
 
     // Sub functions to support major ones
-    displayOne = () => calc.output.textContent = calc.num1;
-    displayTwo = () => calc.output.textContent = calc.num1 + " " + calc.currentFunction.textContent;
-    displayThree = () => calc.output.textContent = calc.num1 + " " + calc.currentFunction.textContent + " " + calc.num2;
-    isSelected = () => calc.currentFunction.style.boxShadow;
-    select = () => calc.currentFunction.style.boxShadow = "inset 0px 0px 0px 4px rgb(60, 60, 60)";
-    clearSelection = () => {if (calc.currentFunction != null) 
+    function displayOne() {calc.output.textContent = calc.num1;}
+    function displayTwo() {calc.output.textContent = calc.num1 + " " + calc.currentFunction.textContent;}
+    function displayThree() {calc.output.textContent = calc.num1 + " " + calc.currentFunction.textContent + " " + calc.num2;}
+    function select() {calc.currentFunction.style.boxShadow = "inset 0px 0px 0px 4px rgb(60, 60, 60)";}
+    function clearSelection() {if (calc.currentFunction != null) 
         {calc.currentFunction.style.boxShadow = "none"; calc.currentFunction = null;}}
-    hasDecimal = (aString) => aString.toString().indexOf(".") != -1;
-    roundNum = (number) => Math.round(number * 1_000_000) / 1_000_000;
-    storeNumber = (n, num) => {if (num == "." && !hasDecimal(calc[n])) addDecimal(n, num); else if (num != ".") addNumber(n, num);}
-    addDecimal = (n, num) => {if (calc[n] == 0 || calc[n] == null) calc[n] = "0."; else calc[n] += num;}
-    addNumber = (n, num) => {if (calc[n] == "0" || calc[n] == null) calc[n] = num; else calc[n] += num;}
-
+    function hasDecimal(aString) {return aString.toString().indexOf(".") != -1;}
+    function roundNum(number) {return Math.round(number * 1_000_000) / 1_000_000;}
+    function storeNumber(n, num) {if (num == "." && !hasDecimal(calc[n])) addDecimal(n, num); 
+        else if (num != ".") addNumber(n, num);}
+    function addDecimal(n, num) {if (calc[n] == 0 || calc[n] == null) calc[n] = "0."; else calc[n] += num;}
+    function  addNumber(n, num) {if (calc[n] == "0" || calc[n] == null) calc[n] = num; else calc[n] += num;}
 
     // Functions available to html doc
     clearAll = () => {calc.num1 = 0; calc.num2 = null; clearSelection(); displayOne();}
@@ -47,6 +46,7 @@ const calculator = (() => {
     }
     calculate = () => {
         if (calc.num2 != null) {
+            console.log("Num1: " + calc.num1 + "\nFunction: " + calc.currentFunction.textContent + "\nNum2: " + calc.num2);
             calc.num1 = roundNum(eval(calc.num1 + " " + calc.currentFunction.textContent + " " + calc.num2));
             calc.num2 = null;
             clearSelection();
