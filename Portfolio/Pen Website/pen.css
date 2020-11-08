@@ -1,0 +1,175 @@
+header {
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    box-shadow: 0 5px 5px rgb(200,200,200);
+    justify-content: space-between;
+    padding: 7.5px 10px 7.5px 10px;
+    display: flex;
+    font-size: 17px;
+    z-index: 128;
+}
+
+html, body {
+    background-color: #FFFAFA;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Neurial Grotesk", Roboto, system, -apple-system, BlinkMacSystemFont, ".SFNSDisplay-Regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #57586e;
+}
+
+.header-items {
+    text-decoration: none;
+    color: #57586e;
+    margin: 10px 15px 10px 15px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.header-items:hover {
+    color: black;
+}
+
+#get-started {
+    text-decoration: none;
+    color: #175cff;
+    border: 0.5px solid rgb(201, 200, 200);
+    font-size: 20px;
+    border-radius: 22px;
+    text-align: center;
+    padding: 10px;
+    transition: 0.2s;
+}
+
+#get-started:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 2px 2px rgb(200,200,200);
+    transition: all 0.2s ease-in-out 0s;
+}
+
+#logo {
+    background-color: white;
+    padding: 0;
+}
+
+#header-middle {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px 0 20px;
+}
+
+#header-right {
+    background-color: white;
+    margin-right: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px 0 20px;
+}
+
+#logoImage {
+    border-radius: 21.5px;
+    display: block;
+    float: left;
+}
+
+#logoName {
+    float: left;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 4.5px 0 4.5px 20px;
+    color: black;
+}
+
+
+#page-one {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+#pen-information {
+    margin-top: 80px;
+    width: 65%;
+    margin-left: 100px;
+}
+
+h1 {
+    color: black;
+    font-size: 55px;
+}
+
+p {
+    font-size: 17px;
+    line-height: 22px;
+}
+
+#stockImageOne {
+    margin-top: 100px;
+    margin-right: 100px;
+    border-radius: 10px;
+}
+
+#options-button {
+    text-decoration: none;
+    display: block;
+    background-color: #175cff;
+    width: 150px;
+    color: white;
+    font-size: 20px;
+    border-radius: 30px;
+    text-align: center;
+    padding: 15px;
+    transition: 0.2s;
+    margin-top: 50px;
+}
+
+#options-button:hover {
+    background-color: #0047f0;
+    border-color:  #0047f0;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 4px rgb(118, 109, 255);
+    transition: all 0.2s ease-in-out 0s;
+}
+
+.list-check {
+    list-style: none;
+    margin-top: 50px;
+    padding-inline-start: 0;
+}
+
+.list-check li {
+    padding-left: 30px;
+    padding-top: 2px;
+    position: relative;
+    margin-bottom: 12px;
+    font-size: 17px;
+}
+
+.list-check li:before {
+    content: "";
+    display: block;
+    width: 20px;
+    height: 20px;
+    background: url("Website Images/check.png") no-repeat center;
+    background-size: 20px;
+    border-radius: 50%;
+    position: absolute;
+    top: 2px;
+    left: 0;
+}
+
+#stockImageTwo {
+    margin-top: 150px;
+    margin-left: 100px;
+    border-radius: 10px;
+}
+
+#pen-pricing {
+    margin-top: 120px;
+    margin-left: 150px;
+    width: 65%;
+}

@@ -41,6 +41,9 @@ function loadPortfolio() {
 
     root.appendChild(createLink("../../Portfolio/Calculator/calc.html", "../images/Calculator.png",
     "../images/CalculatorHover.png", 36, 46, "download-box", false));
+
+    root.appendChild(createLink("../../Portfolio/Pen Website/pen.html", "../images/Website.png",
+    "../images/Website Hover.png", 32, 32, "download-box", false, "Website"));
 }
 
 function loadResumeSummary() {
@@ -94,7 +97,7 @@ function createLink(link, imgSrc, hoverSrc, width, height, boxType, isDownload, 
     iconContainer.classList.add("remove-text-decoration");
     iconContainer.href = link;
     if (isDownload==true){
-        iconContainer.setAttribute('download',"download");
+        iconContainer.setAttribute('download',"download=" + text);
     }
     iconDownload.appendChild(iconContainer);
 
