@@ -1,3 +1,14 @@
+html, body {
+    background-color: #FFFAFA;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Neurial Grotesk", Roboto, system, -apple-system, BlinkMacSystemFont, ".SFNSDisplay-Regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #57586e;
+}
+
 header {
     background-color: white;
     position: fixed;
@@ -9,17 +20,6 @@ header {
     display: flex;
     font-size: 17px;
     z-index: 128;
-}
-
-html, body {
-    background-color: #FFFAFA;
-    height: 100%;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Neurial Grotesk", Roboto, system, -apple-system, BlinkMacSystemFont, ".SFNSDisplay-Regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    color: #57586e;
 }
 
 .header-items {
@@ -85,8 +85,7 @@ html, body {
     color: black;
 }
 
-
-#page-one {
+.two-columns {
     display: grid;
     grid-template-columns: auto auto;
 }
@@ -104,7 +103,7 @@ h1 {
 
 p {
     font-size: 17px;
-    line-height: 22px;
+    line-height: 30px;
 }
 
 #stockImageOne {
@@ -172,4 +171,144 @@ p {
     margin-top: 120px;
     margin-left: 150px;
     width: 65%;
+}
+
+#truck-parallax {
+    /* The image used */
+    background-image: url("Website Images/Truck.jpg");
+  
+    /* Set a specific height */
+    margin-top: 200px;
+    min-height: 500px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-column: 1 / span 2;
+    width: 100%;
+}
+
+#shipping-information {
+    grid-column: 1 / span 2;
+    text-align: center;
+    width: 65%;
+    margin: auto;
+}
+
+#shipping-path {
+    margin-top: 100px;
+    margin-bottom: 200px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    /*background-color: lightblue;*/
+}
+
+#computerSymbol {
+    margin-left: 100px;
+    margin-top: 37.5px;
+}
+
+#downwardsArrow {
+    margin-top: 225px;
+}
+
+#warehouseSymbol {
+    margin-top: 25px;
+}
+
+#truckSymbol {
+    margin-right: 100px;
+    margin-top: 75px;
+}
+
+footer {
+    width: 100%;
+    background-color:  #175cff;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: white;
+    grid-template-columns: auto auto auto auto;
+}
+
+#footer-column-1 {
+    margin-left: 100px;
+    width: 214px;
+}
+
+#footer-column-1 img {
+    float: left;
+}
+
+#footer-logo-text {
+    margin-left: 25px;
+    float: left;
+    font-size: 20px;
+}
+
+#stay-connected {
+    margin-top: 100px;
+    font-size: 20px;
+}
+
+#phone-number {
+    font-size: 29.5px;
+    font-weight: bold;
+    margin-bottom: -50px;
+}
+
+#media-images {
+    display: flex;
+    justify-content: space-between;
+}
+
+#footer-column-2{
+    display: grid;
+    grid-template-columns: auto;
+}
+
+#footer-column-2 a{
+    height: 20px;
+    margin-top: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+#footer-column-3{
+    display: grid;
+    grid-template-columns: auto;
+}
+
+#footer-column-3 a{
+    height: 20px;
+    margin-top: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+#claims {
+    margin-bottom: 100px;
+}
+
+#footer-column-4{
+    height: 21px;
+    display: grid;
+    grid-template-columns: auto;
+    margin-right: 100px;
+}
+
+#footer-column-4 a{
+    height: 20px;
+    text-decoration: none;
+    color: white;
+    margin-bottom: 20px;
+}
+
+#footer-column-4 div {
+    height: 24px;
+    margin-top: 10px;
 }
