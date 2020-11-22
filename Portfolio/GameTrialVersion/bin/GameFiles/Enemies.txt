@@ -1,0 +1,23 @@
+Name	HP	Weapon	Armor	Bonus Damage	XP	Loot	Spells	Sound Effect	Descriptor
+Target Dummy	10000	None	None	0	0	None	None	Target Dummy	It just stands there! Menacingly!
+Small Boar	30	Teeth	None	-14	15	|Boar Tusk,1| |Gold,10|	None	Boar	The boar pounds the ground and rushes you!
+Large Boar	45	Teeth	None	-10	25	|Boar Tusk,1| |Gold,15|	None	Boar	The boar squeals, enraged by the deaths of its kin
+Goblin	45	Kitchen Knife	Tattered Leather	5	50	|Goblin Ear,1| |Gold,10|	None	Goblin	The goblin snarls at you, swinging its weapons
+Mad Hatter	80	Claws	None	0	75	|Gold,15|	None	Cat	The Mad Hatter approaches! A true mob boss
+The Walt	80	Claws	None	0	75	|Gold,15|	None	Cat	Kitty cat paddy whack!
+Bat	20	None	None	0	60	|Bat Ear,1|	|Gold,5|	Bat	The beat flies around, more or less harmless
+Spider	60	Teeth	None	0	40	|Vial of Venom,1|	|Gold,10|	Spider	The spider swarms at you with its brethren!
+Brood Mother	125	Teeth	None	0	140	|Vial of Venom,1|	|Gold,20|	Spider	The brood mother hisses, ready to attack
+Orc Soldier	74	Rusty Shovel	Tattered Leather	14	75	|Gold,20|	None	Orc	The orc soldier snarls and draws his blade
+Orc Leader	100	Iron Sword	Tattered Leather	21	150	|Gold,30|	None	Orc	The leader recognizes your skill and steps forward for a duel!
+Giant	150	Fists	Tattered Leather	10	200	|Giant's Blood,1|	|Gold,30|	Giant	The giant smells the blood of an Englishman!
+Elder Giant	250	Fists	Tattered Leather	20	300	|Giant's Blood,1|	|Gold,45|	Giant	The giant is enraged at the death of his little brother
+Lesser Ice Golem	200	Fists	Chain Shirt	30	250	|Ice Shard,1|	|Gold,45|	Golem	The golem is ready to take you on!
+Greater Ice Golem	300	Fists	Chain Shirt	45	300	|Ice Shard,1|	|Gold,60|	Golem	The golem roars and prepares to crush you!
+Wizard	200	None	None	50	1500	|Wizard Hat,1| |Gold,100|	|Fireball| |Arrow Storm|	Wizard	The wizard says: "Who are you? Fuck off!"
+Forest Elemental	450	None	Chain Shirt	0	400	|Elemental Stone,1| |Gold,75|	|Earthquake|	Golem	The elemental just wants to protect all the creatures you've been slaughtering!
+Fire Elemental	600	None	Chain Shirt	100	400	|Elemental Stone,1| |Gold,100|	|Flame Storm|	Golem	The ground tears apart with lava and flames!
+Storm Elemental	750	None	Chain Shirt	0	400	|Elemental Stone,1| |Gold,125|	|Lightning|	Golem	The air around the elemental crackles with electricity, and smells of ozone
+Lesser Demon	1000	Masterwork Blade	Plate Mail	100	400	|Gold,150|	None	Demon	The demon challenges you to attack him!
+Chaos Demon	1500	None	Plate Mail	100	400	|Gold,200|	|Fireball| |Earthquake| |Lightning|	Demon	The demon seems busy burning down that town
+Tiamat	2500	Claws	Draconic	200	10000	|Gold,10000|	|Lightning| |Earthquake| |Flame Storm| |Arrow Storm|	Roar	Tiamat, mother of dragons, accepts your challenge!

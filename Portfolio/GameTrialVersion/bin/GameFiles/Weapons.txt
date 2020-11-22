@@ -1,0 +1,25 @@
+Name	Weapon Type	Item Tier	Melee Damage	Ranged Damage	Spell Multiplier	Description	AttackDesc
+None	None	0	0	0	1	Nothing at all	Nothing
+Fists	Fists	0	3	0	1	Literally just your hands	Punch
+Large Branch	Staff	1	5	0	1	You find this tree branch works well enough as a staff	Bonk
+Oak Staff	Staff	2	5	0	2	A basic staff made out of a fine oak tree, built for channeling your magic	Bonk
+Runic Staff	Staff	3	5	0	3	Your staff is carved with detailed, glowing runes to augment your power	Bonk
+Masterwork Staff	Staff	4	5	0	4	An intricately carved staff of elven origin, wrought from an ancient elderwood tree	Bonk
+Draconic Staff	Staff	5	5	0	5	Your staff hums with the power of a miniature sun, forged in the heat of a dragon's breath	Bonk
+Rusty Shovel	Sword	1	10	0	1	Your shovel is speckled with dirt and rust at the end, good for bashing	Slash
+Iron Sword	Sword	2	20	0	1	A basic iron sword, a little dull but it could be worse	Slash
+Steel Sword	Sword	3	30	0	1	A fine steel sword, recently sharpened and ready for battle	Slash
+Masterwork Blade	Sword	4	40	0	1	An intricate sword, carved with symbols from the dwarven forge fires	Slash
+Draconic Blade	Sword	5	50	0	1	Your blade hums with power, the heat of the dragon's breath it was forged in slowly emanates	Slash
+Slingshot	Bow	1	5	10	1	Armed with your trusty rocks and slingshot, you're ready to mildly annoy your enemies	Bonk
+Oak Bow	Bow	2	5	20	1	You wield a curvy branch with a string bending it back, a little inaccurate but useful	Bonk
+Ornate Bow	Bow	3	5	30	1	A fine piece of craftsmanship, its arrows will fly true	Bonk
+Masterwork Bow	Bow	4	5	40	1	An intricately carved bow of elven origin, wrought from an ancient elderwood tree	Bonk
+Draconic Bow	Bow	5	5	50	1	Your staff hums with the power of a miniature sun, forged in the heat of a dragon's breath	Bonk
+Kitchen Knife	Dagger	1	10	0	1	Your knife looks like it was stolen from an overworked chef	Slash
+Short Blade	Dagger	2	20	0	1	A small blade, but sturdy and can be thrown in a pinch	Slash
+Steel Dagger	Dagger	3	30	0	1	A fine steel dagger, recently sharpened and ready for battle	Slash
+Masterwork Dagger	Dagger	4	40	0	1	An intricate blade, carved with symbols from the dwarven forge fires	Slash
+Draconic Dagger	Dagger	5	1	50	1	Your blade hums with power, the heat of the dragon's breath it was forged in slowly emanates	Slash
+Claws	None	0	20	0	1	An animal's freshly sharpened set of claws	Shred
+Teeth	None	0	20	0	1	An animal's bloodied Teeth	Crunch

@@ -1,0 +1,20 @@
+Name	Price	Description
+Arrow	1	A basic arrow, only used by the finest of archers (anybody with a stick and some string)
+Bat Ear	5	Ear of bat, eye of newt, alakazam! You're so cute
+Boar Tusk	5	Tusk of a boar, lil bit bloody but no bigs
+Canteen - Empty	0	An empty water canteen, fill 'er up at the next town or outpost
+Canteen - Full	0	A full canteen of lukewarm still water, just the way mama makes it
+Elemental Stone	75	A rare and powerful magic stone, used in ritual casting
+Giant's Blood	30	A vial (more like a jug) of giant's blood, craved by vampires everywhere. Low-fat and nutritious!
+Goblin Ear	10	The ear of an annoying alliterating asshole
+Gold	0	Thar be gold!
+Hat	1	A fancy hat! You can't wear it, and it doesn't help you, but it exists!
+Health Potion	150	A health potion. Drinking this will restore 30 HP + 25% of your max HP. Won't go over max HP
+Ice Shard	50	A shard of true ice, that feels freezing to the touch. Perfect for evangelists
+Mana Potion	150	A mana potion. Drinking this will restore 30 mana + 25% of your max mana. Won't go over max mana
+Potato	0	This is a potato
+Vial of Venom	15	Some V to the V, for when the hubby managed to survive tripping on a knife 10
+Water Bottle - Empty	0	An empty bottle of water, a perfect complement to the ocean's trash continent
+Water Bottle - Full	0	A full bottle of lukewarm water. You can almost tasted the particles of degrading plastic
+Wizard Hat	150	The hat of a very flamboyant wizard, stars and all
+X	0	This is an empty item only used for deleting items in a method call

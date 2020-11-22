@@ -1,0 +1,26 @@
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+X                             MMM                    ^^^^                                    X
+X            ^^^^^            MM      O             ^^C^^^                    .......        X
+X          ^^^^^^^^^     T _                         ^^^            O       ..........       X
+X           ^^^C^^^^         \     ,,,,,,,,,                               ......D.....      X
+X      O    ^^^^^^^^          |     ,,,,,,,,                   MM           ...........      X
+X                              \     ,,,,,,,   __ __ _T       MMMM            ......         X
+X       M          ^^^^^^       \     ,,,,,,  /M               MM                M           X
+X      MMM      ^^^^^^^^^^^       \          |   ...                                         X
+X       M            ^^W^^^^^^      \        |  ......        ,,,,,,,,                       X
+X                ^^^^^^^  ^^^^        \M_____@  ......     ,,,,,,,,,,,,,,       T            X
+X        O           ^^^^^^^           /      \  ....    ,,,,,,,,,,,,,,,      /              X
+X                   _ ___   _ ___   __         \  ..      ,,,,,,,,,,,,     M /               X
+X                 /          M                   \   MM                   MMM|               X
+X               /             ,,,,,,,,,,,      M  \  M                     M |       O       X
+X              /             ,,,,,,,,,,,,,,,,      \                      ^^ |               X
+X            T             ,,,,,,,,,,,,,,,          \ _ ___  ____      ^^^^^^^^              X
+X                                ,,,,,,             /    MM        \__ ^^^^^^T^^^^^^         X
+X   .......                                       M/                ^^^^^^^^^^^^^^           X
+X  ..........       O                         O _ /                   ^^^C^^^^^^^^           X
+X  ...E.....                                                            ^^^^^^^^^            X
+X   ......                                                                                   X
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+                                                                                              
+X = Uncrossable Boundary, E = Elemental, W = Wizard, O = Outpost, T = Town       @ = Player   
+C = Cave, M = Monster, , = brush, . = Lava, | = Path, D = Dragon          Position Char = T   

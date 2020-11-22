@@ -1,0 +1,17 @@
+Name	Damage	HP	Immunity	Mana Cost	Damage Buff	Defence Buff	SoundFX Name	Description	Attack Description
+Arrow Storm	20	0	FALSE	40	0	0	Arrow Storm	The caster launches a rain of arrows upon their enemy	Swoosh
+Backstab	0	0	FALSE	40	30	0	Slash	The caster deftly sneaks behind their enemy to always land a critical hit	Stab
+Blink	0	0	TRUE	40	0	0	Blink	The caster briefly blinks out of existence, impossible to hit	Nyoom
+Fireball	5	0	FALSE	20	0	0	Fireball	The caster launches a powerful fireball, devastating their opponent	Fwoosh
+Flame Blade	0	0	FALSE	40	20	0	Fireball	The caster ignites their blade, allowing it to deal bonus damage	Fwoosh
+Flame Storm	30	0	FALSE	40	0	0	Fireball	An incredible hurricane of fire emanates from the caster, devoting the surrounding area	FWOOSH
+Frost Shield	0	0	FALSE	20	0	15	Frost Shield	A shield of ice forms over the caster, briefly protecting them from attacks	*ice noises*
+Hail of Blades	1	0	FALSE	30	0	0	Slash	The caster launches a hail of deadly sharp blades at their enemy, it's impossible to dodge them all	knife noises
+Heavy Bolt	0	0	FALSE	40	40	0	Arrow	The caster prepares an especially heavy bolt to fire at their opponent	chkk
+Invisibility	0	0	TRUE	30	0	0	Swoosh	The caster fades into the shadows, impossible to hit or be seen	Swoosh
+Last Stand	0	150	FALSE	30	0	0	Power Up	The caster channels their willpower, refusing to die temporarily	AUUUGH
+Shield Wall	0	0	FALSE	25	0	50	Shield	The caster readies their shield, preparing for the oncoming attacks	SHIELD
+Vitality	0	50	FALSE	60	0	0	Power Up	The caster speaks a spell of good health, temporarily increasing their hp	Helth
+Windwalk	0	0	TRUE	60	0	0	Swoosh	The caster becomes as light as the wind, impossible to hit	Windy noises
+Earthquake	100	0	FALSE	0	0	0	Earthquake	The caster causes the ground to shudder, opening up the earth around them	Shakey shake
+Lightning	150	0	FALSE	0	0	0	Lightning	The caster causes a bolt of lightning to strike their enemy, dealing damage	BZZZZZZZ

@@ -1,0 +1,9 @@
+Name	Completed?	XP Reward	Gold Reward	Required Item	Request	Response
+A Boarish Task	FALSE	160	50	Boar Tusk,5	Please help! Wild boars have been ravaging our crops! We'll starve! (Collect 5 Boar Tusk)	Thanks for the help!
+Bleeding Ears	FALSE	500	100	Goblin Ear,5	Please help! A gnarly gang of green goblins has been accosting travellers with alliteration! Their ears are bleeding! (Collect 5 Goblin Ear)	Thanks for the help!
+Going Batty	FALSE	600	50	Bat Ear,5	Is there any way you could fetch me some bat ears, dear? It's for a potion. I'll give you a lil sum'in sum'in. (Collect 5 Bat Ear)	Thanks for the help!
+V of V	FALSE	600	140	Vial of Venom,5	Sorry to bother you again dearie, but I just need an arsenic extract for my brother-in-law's dinner. (Collect 5 Vial of Venom)	Thanks for the help!
+Fe Fi Fo Fum	FALSE	800	150	Giant's Blood,5	Please help! The countryside is plagued with evil giants and I need their blood! For uh, science! *You note the fangs and dim lighting* (Collect 5 Giant's Blood)	Thanks for the help!
+Climate Change	FALSE	1200	300	Ice Shard,5	I'd like to hire you for a special mission, please. Ice is rare these days, and if I want to spike my oil share prices I need some more ice to deny climate change! (Collect 5 Ice Shard)	Thanks for the help! If I keep this up I can retire in my cozy 20 acre mansion while I deny the existence of the housing crisis!
+Magic Stones	FALSE	1600	50	Elemental Stone,5	I am in need of some magic stones in order to finish this ritual. They're extremely rare and valuable. Do you think you could get some for me? (Collect 5 Elemental Stone)	Thanks for the help!
+A Wizard's Hat	FALSE	1000	200	Wizard Hat,1	I really want a hat. A wizard's hat. The guy is a dick. (Collect 1 Wizard Hat)	Thanks for the help!

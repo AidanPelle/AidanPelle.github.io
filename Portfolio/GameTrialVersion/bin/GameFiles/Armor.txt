@@ -1,0 +1,6 @@
+Name	Item Tier	Defense	Description
+None	0	0	You're not wearing any armor
+Tattered Leather	1	10	A set of tattered leather, offering minimal protection
+Chain Shirt	2	20	A sturdy, but dented chain linked shirt
+Plate Mail	3	30	A fine piece of plate mail armor, the perfect defence against an enemy's blows
+Draconic	4	50	An awe-inspiring set of dragon scale armor, the likes of which never seen before
