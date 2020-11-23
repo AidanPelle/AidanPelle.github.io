@@ -6,19 +6,13 @@ html, body {
     box-sizing: border-box;
 }
 
-#wrapper {
+#content {
     overflow-y: scroll;
-    position: relative;
-    height: 450px;
-    width: 300px;
+    height: 100%;
+    width: 100%;
     background-color: blue;
     padding-top: 50px;
     padding-bottom: 50px;
-}
-
-#contentOuter {
-    height: 100%;
-    overflow-y: scroll;
 }
 
 header div {
@@ -34,14 +28,14 @@ header div {
 }
 
 header {
-    position: absolute;
+    position: fixed;
     top: 0;
     background-color: black;
     width: 100%;
 }
 
 footer {
-    position: absolute;
+    position: fixed;
     bottom: 0;
     background-color: black;
     height: 50px;
