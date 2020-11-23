@@ -57,8 +57,8 @@ function loadPortfolio() {
         divSummary.style.marginTop = "10px";
         divTitle.style.marginTop = "35px";
 
-        root.appendChild(createLink("#", "../images/Videogame.png", 
-        "../images/VideogameHover.png", 33, 23, "portfolioBox", false, "Game"));
+        root.appendChild(createLink("https://github.com/AidanPelle/AidanPelle.github.io/tree/master/Portfolio/GameTrialVersion",
+         "../images/Videogame.png", "../images/VideogameHover.png", 33, 23, "portfolioBox", false, "Game"));
 
         root.appendChild(createLink("../../Portfolio/Calculator/calc.html", "../images/Calculator.png",
         "../images/CalculatorHover.png", 30, 38, "portfolioBox", false));
