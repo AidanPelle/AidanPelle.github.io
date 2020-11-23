@@ -1,3 +1,6 @@
+document.getElementById("body").style.paddingTop = document.getElementById("header").offsetHeight + "px";
+document.getElementById("body").style.paddingBottom = document.getElementById("footer").offsetHeight + "px";
+
 function loadAboutMe() {
     clearSummaryImage();
 
