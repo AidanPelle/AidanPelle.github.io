@@ -1,130 +1,10 @@
-a:hover {
-    color: rgb(111, 160, 233);
-}
-
-#portfolio-link {
-    float: right;
-}
-
-
-#summary {
-    width: 39vw;
-    min-width: 250px;
-    background: rgb(238, 221, 241);
-    border-radius: 20px;
-    text-align: center;
-    font-size: 17px;
-    font-weight: bold;
-    padding: 12px;
-    display: inline-block;
-    min-height: 40px;
-}
-
-#summary-text {
-    display: inline-block;
-}
-
-p {
-    margin: 0;
-    line-height: 20px;
-}
-
-#margin1 {
-    height: 25%;
-}
-
-#margin2 {
-    display: flex;
-    height: 24%;
-    flex-shrink: 1 0 0;
-}
-
-#margin3 {
-    height: 30px;
-}
-
-#wrapper {
-    padding-top: 55px;
-    padding-bottom: 75px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    align-content: space-between;
-    height: calc(100% - 75px - 55px);
-}
-
-.remove-text-decoration {
-    text-decoration: none;
-    color: black;
-}
-
-.skills {
-    display: inline-block;
-    justify-content: center;
-    align-items: flex-end;
-    width: 100%;
+html, body {
     height: 100%;
-    flex-direction: column;
-    font-weight: bold;
-}
-
-.skills-box {
-    border-radius: 10px;
-    background: rgb(238, 221, 241);
-    height: 55px;
-    width: 55px;
-    margin: 0 15px 0 15px;
-    text-align: center;
-}
-
-.download-box {
-    border-radius: 10px;
-    background: rgb(238, 221, 241);
-    height: 7.5vh;
-    width: 9vh;
-    margin: 0 75px 0 75px;
-    text-align: center;
-}
-
-.header-text {
-    color:rgb(225, 193, 231);
-    text-decoration: none;
-    font-size: 22.5px;
-    text-align: center;
-}
-
-#margin4 {
-    width: 62%;
-}
-
-#margin5 {
-    width: 5%;
-}
-
-
-#mediaLinks {
-    display: flex;
-    flex-direction: row;
-    width: 50%;
-    justify-items: right;
-}
-
-.footer-image {
-    text-decoration: none;
-}
-
-.footer-text {
-    color:rgb(225, 193, 231);
-    text-decoration: none;
-    font-size: 18px;
-    text-align: center;
-}
-
-.h1-text {
-    color: rgb(0, 0, 0);
-    text-align: center;
-    background-color: white;
-    display: inline-block;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 12px;
 }
 
 .bg { 
@@ -136,59 +16,239 @@ p {
     background-size: cover;
 }
 
-img {
-    margin-top: 4px;
-    vertical-align: middle;
+a {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+a:active {
+    color: rgb(111, 160, 233);
+}
+
+header {
+    position: fixed;
+    top: 0;
+    background-color: black;
+    width: 100%;
+    font-size: 20px;
+}
+
+header div {
+    color:rgb(225, 193, 231);
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+header div a {
+    color: rgb(225, 193, 231);
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: scroll;
+    height: 100%;
+    width: 100%;
+}
+
+#title {
+    margin-top: 70px;
+    text-align: center;
+}
+
+#summary {
+    width: 75%;
+    margin-top: 70px;
+    text-align: center;
+    background-color: rgb(238, 221, 241);
+    font-size: 17px;
+    padding: 10px;
+    border-radius: 20px;
 }
 
 ul {
     list-style: none;
     display: flex;
     flex-direction: row;
-    justify-self: center;
     padding: 0;
-    margin: 0;
-    margin-bottom: 80px;
+}
+
+li {
+    background-color: rgb(238, 221, 241);
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    text-align: center;
+    padding: 5px;
+    width: 38px;
+    height: 38px;
+    border-radius: 10px;
+    font-size: 14px;
+}
+
+ul li a {
+    color:black;
 }
 
 footer {
-    position: absolute;
+    position: fixed;
     bottom: 0;
-    padding: 1vh 4vh 1vh 4vh;
+    background-color: black;
     width: 100%;
-    background: black;
-    align-items: center;
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
 }
 
-header {
-    position: absolute;
-    top: 0; 
-    padding: 2vh 4vh 2vh 4vh;
-    width: 100%;
-    background: black;
-    align-items: center;
-    box-sizing: border-box;
+footer div {
+    margin: 10px;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
 }
 
-html, body {
-    overflow-y: scroll;
-    height: 100%;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    
+footer div a {
+    color: rgb(225, 193, 231);
 }
 
-h1 {
-    display: flex;
-    align-self: center;
-    margin: 0;
+#email {
+    margin-top: 24.5px;
 }
+
+#mediaLinks {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+#linkedIn {
+    margin-right: 10px;
+}
+
+.imgMedia {
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+.hMargins {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.portfolioBox {
+    width: 45px;
+    margin: 10px 20px;
+}
+
+.resumeBox {
+    width: 45px;
+    height: 45px;
+    margin: 40px;
+}
+
+@media only screen and (min-width: 800px) {
+    /* For desktop: */
+    html, body {
+        font-size: 12px;
+    }
+    header {
+        font-size: 25px;
+    }
+    header div {
+        margin: 0;
+        flex-direction: row;
+    }
+    header div a {
+        margin: 20px;
+    }
+
+    a:hover {
+        color: rgb(111, 160, 233);
+    }
+
+    #title {
+        margin-top: 100px;
+        font-size: 45px;
+    }
+
+    #summary {
+        width: 50%;
+        margin-top: 120px;
+        font-size: 20px;
+        padding: 10px;
+        border-radius: 20px;
+    }
+
+    li {
+        margin: 20px;
+        text-align: center;
+        padding: 5px;
+        width: 55px;
+        height: 55px;
+        border-radius: 15px;
+        font-size: 18px;
+    }
+
+    #Java {
+        width:  35px;
+        height: 35px;
+    }
+
+    #JavaScript {
+        width:  32.5px;
+        height: 35px;
+    }
+
+    #Python {
+        width:  35px;
+        height: 35px;
+    }
+
+    #Html {
+        width: 50px;
+        height: 50px;
+    }
+
+    #Excel {
+        width: 35px;
+        height: 35px;
+    }
+
+    footer {
+        font-size: 25px;
+    }
+
+    footer div {
+        margin: 0;
+    }
+
+    #email {
+        margin: 20px;
+        margin-top: 25px;
+    }
+
+    #mediaLinks {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #linkedIn {
+        margin: 20px;
+    }
+
+    .imgMedia {
+        width: 40px;
+        height: 40px;
+        border-radius: 15px;
+        margin: 20px;
+    }
+
+    .portfolioBox {
+        width: 60px;
+        margin: 30px 35px;
+    }
+
+    .resumeBox {
+        width: 60px;
+        height: 55px;
+        margin: 30px 50px;
+    }
+  }

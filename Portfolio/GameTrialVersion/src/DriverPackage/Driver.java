@@ -1,5 +1,7 @@
 package DriverPackage;
 	
+import java.nio.file.Paths;
+
 import Scenes.WelcomeScene;
 import javafx.application.Application;
 import javafx.scene.media.*;
@@ -12,19 +14,8 @@ public class Driver extends Application {
 	public void start(Stage window) {
 		
 		try {
-			
-			Media stuff = new Media(this.getClass().getResource("/AudioFiles/Songs.wav").toString());
-			MediaPlayer background = new MediaPlayer(stuff);
-			background.setVolume(0.2);
-			background.setOnEndOfMedia(new Runnable() {
-			       @Override
-				public void run() {
-			         background.seek(Duration.ZERO);
-			         background.play();
-			       }
-			   });
-			background.play();
-			window.setTitle("Paige's Game!");
+			music();
+			window.setTitle("RPG Game!");
 			WelcomeScene scene = new WelcomeScene(window);
 			scene.loadScene();
 			window.show();
@@ -34,8 +25,26 @@ public class Driver extends Application {
 	}
 	
 	public static void main(String[] args) {
+		
+		
 		launch(args);
 		
 		
+	}
+	
+	MediaPlayer mediaPlayer;
+	public void music() {
+		String s = "Resources/AudioFiles/Songs.wav";
+		Media h = new Media(Paths.get(s).toUri().toString());
+		mediaPlayer = new MediaPlayer(h);
+		mediaPlayer.setVolume(0.2);
+		mediaPlayer.play();
+		mediaPlayer.setOnEndOfMedia(new Runnable() {
+		       @Override
+			public void run() {
+		         mediaPlayer.seek(Duration.ZERO);
+		         mediaPlayer.play();
+		       }
+		   });		
 	}
 }

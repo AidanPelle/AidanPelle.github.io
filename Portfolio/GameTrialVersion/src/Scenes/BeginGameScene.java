@@ -67,7 +67,7 @@ public class BeginGameScene extends MyScene{
 						+ "\nOne of the soliders uncuffs you, and shoves you off the wagon with only the clothes on your back."
 						+ "\nAs the line of wagons rolls off into the distance, you come about and collect yourself. All you have are your muddy clothes and the 20 gold you hid."
 						+ "\nYou start heading towards the nearby town, hoping to score some food and gear."),
-				("Heya babe! Welcome to the second iteration of your video game! Hopefully with some more experience, I can make this an actually solid game!"
+				("Welcome to the second iteration of this game!"
 						+ "\nJust so you know, you'll consume 1 piece of food and 1 water for every space you travel on the map. Keep track of your supplies!"
 						+ "\nAlso, max of 20 skillpoints in any category. I'll try to make this game easier, so that it's more fun on the first few playthroughs, and then change stats accordingly."
 						+ "\nLet me know if there's anything I missed! Enjoy!")

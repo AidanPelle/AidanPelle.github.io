@@ -29,7 +29,7 @@ public class WelcomeScene extends MyScene{
 	public void loadScene() {
 		playSound("Trumpet");
 		//Adding buttons and content
-		lWelcome = new Label("Welcome to Paige's Game: 2.0!");
+		lWelcome = new Label("Welcome to A Generic RPG Game!");
 		bStartGame = new Button("Start Game");
 		bExitGame = new Button("Exit Game");
 		//Organizing buttons for left hand side
