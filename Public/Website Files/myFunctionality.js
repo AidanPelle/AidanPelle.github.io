@@ -1,5 +1,5 @@
 document.getElementById("body").style.paddingTop = document.getElementById("header").offsetHeight + "px";
-document.getElementById("body").style.paddingBottom = document.getElementById("footer").offsetHeight + "px";
+document.getElementById("body").style.paddingBottom = document.getElementById("footer").offsetHeight + 5 + "px";
 var windowWidth = window.innerWidth;
 var divSummary = document.getElementById("summary");
 var divTitle = document.getElementById("title");
