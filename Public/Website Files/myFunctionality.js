@@ -167,10 +167,12 @@ function createLink(link, imgSrc, hoverSrc, width, height, boxType, isDownload, 
         iconContainer.textContent = text;
     }
     
-    iconDownload.onmouseenter = function() {iconContainer.removeChild(iconContainer.firstChild); 
-        iconContainer.style.color = "rgb(111, 160, 233)"; iconContainer.prepend(hoverImage)};
-    iconDownload.onmouseleave = function() {iconContainer.removeChild(iconContainer.firstChild); 
-        iconContainer.style.color = "black"; iconContainer.prepend(iconImage)};
+    if (windowWidth > 800) {
+        iconDownload.onmouseenter = function() {iconContainer.removeChild(iconContainer.firstChild); 
+            iconContainer.style.color = "rgb(111, 160, 233)"; iconContainer.prepend(hoverImage)};
+        iconDownload.onmouseleave = function() {iconContainer.removeChild(iconContainer.firstChild); 
+            iconContainer.style.color = "black"; iconContainer.prepend(iconImage)};
+    }
     iconContainer.prepend(iconImage);
 
     return iconDownload;
