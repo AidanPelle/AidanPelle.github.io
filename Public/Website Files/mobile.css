@@ -1,0 +1,49 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#wrapper {
+    overflow-y: scroll;
+    position: relative;
+    height: 450px;
+    width: 300px;
+    background-color: blue;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#contentOuter {
+    height: 100%;
+    overflow-y: scroll;
+}
+
+header div {
+    color:rgb(225, 193, 231);
+    background-color: white;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+#headerRight a {
+    float: right;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    background-color: black;
+    width: 100%;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    background-color: black;
+    height: 50px;
+    width: 100%;
+}

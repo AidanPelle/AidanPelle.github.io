@@ -11,7 +11,7 @@ function loadAboutMe() {
 
     const imageContainer = document.createElement("div");
     divSummary.prepend(imageContainer);
-    const image = createImage("../images/Profile Picture.jpg", 150, 150);
+    const image = createImage("../images/Profile Picture.jpg", 115, 115);
     image.style.marginRight = "5vh";
     image.style.borderRadius = "20px";
     imageContainer.append(image);
@@ -20,6 +20,8 @@ function loadAboutMe() {
     while( root.firstChild ){
         root.removeChild( root.firstChild );
     }
+
+    document.getElementById("margin3").style.height = "0";
 }
 
 function loadPortfolio() {
@@ -44,6 +46,8 @@ function loadPortfolio() {
 
     root.appendChild(createLink("../../Portfolio/Pen Website/pen.html", "../images/Website.png",
     "../images/Website Hover.png", 32, 32, "download-box", false, "Website"));
+
+    document.getElementById("margin3").style.height = "30px";
 }
 
 function loadResumeSummary() {
@@ -67,6 +71,8 @@ function loadResumeSummary() {
     /*Creating CV icon and adding to ul*/
     root.appendChild(createLink("../../Portfolio/Resume.pdf", "../images/CVDownload.png", 
     "../images/CVHover.png", 40, 46, "download-box", true));
+
+    document.getElementById("margin3").style.height = "30px";
 }
 
 function createIcon(src, width, height, boxType, text) {
