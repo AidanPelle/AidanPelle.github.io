@@ -69,6 +69,7 @@ html, body {
     padding: 0;
     box-sizing: border-box;
     overflow-y: scroll;
+    padding-bottom: 5px;
 }
 
 a:hover {

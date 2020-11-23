@@ -233,6 +233,7 @@ footer {
     padding-bottom: 50px;
     color: white;
     grid-template-columns: auto auto auto auto;
+    font-size: 18px;
 }
 
 #footer-column-1 {
@@ -290,10 +291,6 @@ footer {
     color: white;
 }
 
-#claims {
-    margin-bottom: 100px;
-}
-
 #footer-column-4{
     height: 21px;
     display: grid;
@@ -305,10 +302,10 @@ footer {
     height: 20px;
     text-decoration: none;
     color: white;
-    margin-bottom: 20px;
+    margin-bottom: 0;
 }
 
 #footer-column-4 div {
     height: 24px;
-    margin-top: 10px;
+    margin-top: 20px;
 }
