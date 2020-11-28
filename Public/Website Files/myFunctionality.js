@@ -173,6 +173,9 @@ function createLink(link, imgSrc, hoverSrc, width, height, boxType, isDownload, 
         iconDownload.onmouseleave = function() {iconContainer.removeChild(iconContainer.firstChild); 
             iconContainer.style.color = "black"; iconContainer.prepend(iconImage)};
     }
+    iconContainer.onclick = function() {iconContainer.removeChild(iconContainer.firstChild); 
+        iconContainer.style.color = "black"; iconContainer.prepend(iconImage)};
+        
     iconContainer.prepend(iconImage);
 
     return iconDownload;
