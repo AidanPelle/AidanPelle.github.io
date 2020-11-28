@@ -110,9 +110,10 @@ function loadResumeSummary() {
         root.appendChild(createLink("../../Portfolio/Resume.pdf", "../images/ResumeDownload.png",
         "../images/ResumeHover.png", 30, 30, "resumeBox", true, "Resume"));
 
+        /*CV currently removed due to irrelevant work experience*/
         /*Creating CV icon and adding to ul*/
-        root.appendChild(createLink("../../Portfolio/Resume.pdf", "../images/CVDownload.png", 
-        "../images/CVHover.png", 40, 45, "resumeBox", true));
+        /*root.appendChild(createLink("../../Portfolio/Resume.pdf", "../images/CVDownload.png", 
+        "../images/CVHover.png", 40, 45, "resumeBox", true));*/
     }
     else {
         divSummary.style.marginTop = "65px";
@@ -121,9 +122,10 @@ function loadResumeSummary() {
         root.appendChild(createLink("../../Portfolio/Resume.pdf", "../images/ResumeDownload.png",
         "../images/ResumeHover.png", 32, 32, "resumeBox", true, "Resume"));
 
+        /*CV currently removed due to irrelevant work experience*/
         /*Creating CV icon and adding to ul*/
-        root.appendChild(createLink("../../Portfolio/Resume.pdf", "../images/CVDownload.png", 
-        "../images/CVHover.png", 45, 55, "resumeBox", true));
+        /*root.appendChild(createLink("../../Portfolio/Resume.pdf", "../images/CVDownload.png", 
+        "../images/CVHover.png", 45, 55, "resumeBox", true));*/
     }
 }
 
