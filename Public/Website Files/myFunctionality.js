@@ -154,7 +154,7 @@ function createLink(link, imgSrc, hoverSrc, width, height, boxType, isDownload, 
     const iconContainer = document.createElement("a");
     iconContainer.href = link;
     if (isDownload==true){
-        iconContainer.setAttribute('download',"download=" + text);
+        iconContainer.setAttribute('download',text);
     }
     iconDownload.appendChild(iconContainer);
 
