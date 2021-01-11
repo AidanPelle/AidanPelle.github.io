@@ -57,8 +57,8 @@ function loadPortfolio() {
         divSummary.style.marginTop = "10px";
         divTitle.style.marginTop = "35px";
 
-        root.appendChild(createLink("../../Portfolio/GameTrialVersion", "../images/Videogame.png",
-        "../images/VideogameHover.png", 33, 23, "portfolioBox", false, "Game"));
+        root.appendChild(createLink("https://github.com/AidanPelle/AidanPelle.github.io/tree/master/Portfolio/GameTrialVersion",
+        "../images/Videogame.png", "../images/VideogameHover.png", 33, 23, "portfolioBox", false, "Game"));
 
         root.appendChild(createLink("../../Portfolio/Calculator/calc.html", "../images/Calculator.png",
         "../images/CalculatorHover.png", 30, 38, "portfolioBox", false));
@@ -69,14 +69,14 @@ function loadPortfolio() {
     else {
         divSummary.style.marginTop = "65px";
 
-        root.appendChild(createLink("../../Portfolio/GameTrialVersion", "../images/Videogame.png", 
-    "../images/VideogameHover.png", 45, 30, "portfolioBox", false, "Game"));
+        root.appendChild(createLink("https://github.com/AidanPelle/AidanPelle.github.io/tree/master/Portfolio/GameTrialVersion",
+        "../images/Videogame.png", "../images/VideogameHover.png", 45, 30, "portfolioBox", false, "Game"));
 
-    root.appendChild(createLink("../../Portfolio/Calculator/calc.html", "../images/Calculator.png",
-    "../images/CalculatorHover.png", 40, 50, "portfolioBox", false));
+        root.appendChild(createLink("../../Portfolio/Calculator/calc.html", "../images/Calculator.png",
+        "../images/CalculatorHover.png", 40, 50, "portfolioBox", false));
 
-    root.appendChild(createLink("../../Portfolio/Pen Website/pen.html", "../images/Website.png",
-    "../images/Website Hover.png", 30, 30, "portfolioBox", false, "Website"));
+        root.appendChild(createLink("../../Portfolio/Pen Website/pen.html", "../images/Website.png",
+        "../images/Website Hover.png", 30, 30, "portfolioBox", false, "Website"));
     }
 
     let portfolioText = "As a first-year student at SAIT, I'm still learning all that I can about programming."
