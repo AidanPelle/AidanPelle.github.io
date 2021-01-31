@@ -14,7 +14,7 @@ function loadAboutMe() {
 
     const aboutMeText = "I love programming both as a career and a hobby."
     + " I've worked as a barista, web developer, and stock worker." 
-    + " I graduated high school with a 4.0 GPA, and am currently enrolled at SAIT with a 4.0."
+    + " I graduated high school with a 4.0 GPA, and am currently enrolled at SAIT with a 3.95."
     + " I love to read, play DnD, and swim.";
     document.getElementById("summary").innerHTML = aboutMeText;
 
