@@ -14,7 +14,7 @@ function loadAboutMe() {
 
     const aboutMeText = "I love programming both as a career and a hobby."
     + " I've worked as a barista, web developer, and stock worker." 
-    + " I graduated high school with a 4.0 GPA, and am currently enrolled at SAIT with a 3.95."
+    + " I graduated high school with a 4.0 GPA, and am currently enrolled at SAIT with a 3.89."
     + " I love to read, play DnD, and swim.";
     document.getElementById("summary").innerHTML = aboutMeText;
 
@@ -79,9 +79,9 @@ function loadPortfolio() {
         "../images/Website Hover.png", 30, 30, "portfolioBox", false, "Website"));
     }
 
-    let portfolioText = "As a first-year student at SAIT, I'm still learning all that I can about programming."
+    let portfolioText = "As a soon-to-be graduate of SAIT, I'm learning all that I can about programming."
     + " However, I love to learn and I plan on picking up as many skills as I can."
-    + " Here's a basic calculator app (built in JavaScript), along with a playable RPG game (built in JavaFX)."
+    + " Here's a basic calculator app (built in JavaScript), along with a playable text-based RPG game (built in JavaFX)."
     + " I've also built this website, and provided a link to a sample company site.";
     document.getElementById("summary").innerHTML = portfolioText;
 }
