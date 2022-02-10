@@ -93,8 +93,8 @@ function loadResumeSummary() {
 
     let resumeSummary = "Software Development Student at SAIT with leadership experience, web development knowledge"
     + " and general programming skills. I've completed this website along with a sample company site (working on two others)"
-    + " and a videogame written in Java. I have a passion for programming and I'm looking to further my skills"
-    + " in an internship position.";
+    + " and a videogame written in Java. I have a passion for machine learning and I'm looking to further my skills"
+    + " in the field.";
     document.getElementById("summary").innerHTML = resumeSummary;
     
     let root = document.getElementById("skills-list");
